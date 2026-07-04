@@ -13,6 +13,13 @@ mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log("MongoDB Connected"))
 .catch((err) => console.log(err));
 
+app.get("/", (req, res) => {
+res.json({
+    success: true,
+    message: "🚀 MindMesh API is running successfully!",
+    version: "1.0.0",
+});
+});
 app.use("/api/auth", require("./src/routes/auth.routes"));
 app.use("/api/ideas", require("./src/routes/idea.routes"));
 
