@@ -97,12 +97,12 @@ MindMesh is a modern full-stack MERN application where users can create, manage,
 ```
 MindMesh
 │
-├── client
+├── frontend
 │   ├── src
 │   ├── public
 │   └── package.json
 │
-├── server
+├── backend
 │   ├── routes
 │   ├── models
 │   ├── middleware
@@ -124,17 +124,17 @@ git clone https://github.com/YourUsername/MindMesh.git
 
 ### Install Dependencies
 
-Client
+frontend
 
 ```bash
-cd client
+cd frontend
 npm install
 ```
 
-Server
+backend
 
 ```bash
-cd server
+cd backend
 npm install
 ```
 
@@ -199,7 +199,7 @@ MERN Stack Developer
 
 LinkedIn: www.linkedin.com/in/dhiraj-kumar-180b66328
 
-GitHub: YOUR GITHUB
+GitHub: https://github.com/Dhiraj18145/
 
 
 
